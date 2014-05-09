@@ -1,11 +1,11 @@
 /* global describe, it, expect */
 
-var pkg = require('..');
+var sd = require('..');
 
 describe('sd-zookeeper', function() {
   
-  it('should export object', function() {
-    expect(pkg).to.be.an('object');
+  it('should export constructors', function() {
+    expect(sd.Registry).to.be.a('function');
   });
   
 });

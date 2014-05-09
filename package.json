@@ -26,6 +26,8 @@
   ],
   "main": "./lib",
   "dependencies": {
+    "zookeeper": "git://github.com/jaredhanson/node-zookeeper.git#emit-error",
+    "node-uuid": "~1.4.1"
   },
   "devDependencies": {
     "mocha": "1.x.x",
