@@ -1,0 +1,40 @@
+{
+  "name": "sd-zookeeper",
+  "version": "0.0.0",
+  "description": "TODO: No description specified",
+  "keywords": [
+    "discovery",
+    "disco",
+    "zookeeper"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jared@nodeprime.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NodePrime/node-sd-zookeeper.git"
+  },
+  "bugs": {
+    "url": "http://github.com/NodePrime/node-sd-zookeeper/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
