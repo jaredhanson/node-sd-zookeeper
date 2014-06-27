@@ -27,6 +27,7 @@
   "main": "./lib",
   "dependencies": {
     "zookeeper": "git://github.com/jaredhanson/node-zookeeper.git#emit-error",
+    "lru-cache": "~2.5.0",
     "node-uuid": "~1.4.1"
   },
   "devDependencies": {
