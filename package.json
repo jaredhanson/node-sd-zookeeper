@@ -1,6 +1,6 @@
 {
   "name": "sd-zookeeper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Service discovery using Apache ZooKeeper.",
   "keywords": [
     "discovery",
