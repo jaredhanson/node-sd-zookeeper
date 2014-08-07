@@ -28,7 +28,8 @@
   "dependencies": {
     "zookeeper": "git://github.com/jaredhanson/node-zookeeper.git#emit-error",
     "lru-cache": "~2.5.0",
-    "node-uuid": "~1.4.1"
+    "node-uuid": "~1.4.1",
+    "knuth-shuffle": "~1.0.0"
   },
   "devDependencies": {
     "mocha": "1.x.x",
